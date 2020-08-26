@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Luxury Restaurant</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__head">
+          <div class="header__logo">
+            <a href="../index.html">
+              <picture>
+                <source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt=""></picture>
+            </a>
+          </div>
+          <nav class='header__menu'>
+            <div class='hamburger'>
+              <div class='hamburger__line'></div>
+              <div class='hamburger__line'></div>
+              <div class='hamburger__line'></div>
+            </div>
+            <ul class='nav-links'>
+              <li><a class='menu-link' href='../index.html'>Home</a></li>
+              <li><a class='menu-link' href='index.html'>menu</a></li>
+              <li><a class='menu-link' href='../reservation/index.html'>reservation</a></li>
+              <li><a class='menu-link' href='../recipe/index.html'>recipe</a></li>
+              <li><a class='menu-link' href='../blog/index.html'>blog</a></li>
+              <li><a class='menu-link' href='../pages/index.html'>Pages</a></li>
+              <li><a class='menu-link' href='../contactUs/index.html'>contact</a></li>
+            </ul>
+          </nav>
+          <div class="header__icon icon-header">
+            <div class="icon-header__icon">
+              <picture>
+                <source srcset="img/icons/cart.webp" type="image/webp"><img class="icon-header__img"
+                  src="img/icons/cart.png" alt=""></picture><span class="icon-header__number">3</span>
+            </div>
+            <ul class="icon-header__list">
+              <li class="icon-header__item"><a href="">tovar</a></li>
+              <li class="icon-header__item"><a href="">tovar</a></li>
+              <li class="icon-header__item"><a href="">tovar</a></li>
+              <div class='icon-header__button-line'>
+                <button class='button' type='submit'>BUY</button>
+              </div>
+            </ul>
+          </div>
+          <div class="header__btn"><a href="../reservation/index.html">Book your table</a></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="header-menu">
+        <div class="header-menu__inner">
+          <picture>
+            <source srcset="img/header/bg.webp" type="image/webp"><img src="img/header/bg.jpg" alt=""></picture>
+          <div class="container">
+            <div class="header-menu-title">
+              <picture>
+                <source srcset="img/header/01.webp" type="image/webp"><img
+                  class="header-menu-title__img header-menu-title__img--left" src="img/header/01.png" alt=""></picture>
+              Menu
+              <picture>
+                <source srcset="img/header/01.webp" type="image/webp"><img
+                  class="header-menu-title__img header-menu-title__img--right" src="img/header/01.png" alt=""></picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="menu__inner">
+          <div class="menu__inner-wrap">
+            <div class="menu__title">Menu Grid View</div>
+            <ul class="menu-list">
+              <li class="menu-list-item">
+                <div class="menu-list-item__link menu-list-item__link--active" data-tab-name="tab1">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_all.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_all.svg" alt=""></picture>
+                  </picture><span>All</span>
+                </div>
+              </li>
+              <li class="menu-list-item">
+                <div class="menu-list-item__link" data-tab-name="tab2">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_breakfast.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_breakfast.svg" alt=""></picture>
+                  </picture><span>Breakfast</span>
+                </div>
+              </li>
+              <li class="menu-list-item">
+                <div class="menu-list-item__link" data-tab-name="tab3" class="menu-list-item__block">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_lunch.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_lunch.svg" alt=""></picture>
+                  </picture><span>Lunch</span>
+                </div>
+              </li>
+              <li class="menu-list-item">
+                <div class="menu-list-item__link" data-tab-name="tab4" class="menu-list-item__block">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_snacks.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_snacks.svg" alt=""></picture>
+                  </picture><span>Snacks</span>
+                </div>
+              </li>
+              <li class="menu-list-item">
+                <div class="menu-list-item__link" data-tab-name="tab5" class="menu-list-item__block">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_pizza.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_pizza.svg" alt=""></picture>
+                  </picture><span>Pizza</span>
+                </div>
+              </li>
+              <li class="menu-list-item">
+                <div class="menu-list-item__link" data-tab-name="tab6" class="menu-list-item__block">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_soups.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_soups.svg" alt=""></picture>
+                  </picture><span>Soups</span>
+                </div>
+              </li>
+              <li class="menu-list-item">
+                <div class="menu-list-item__link" data-tab-name="tab7" class="menu-list-item__block">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icon-menu/icon_dinner.svg" type="image/webp"><img
+                        src="img/icon-menu/icon_dinner.svg" alt=""></picture>
+                  </picture><span>Dinner</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="container">
+            <div class="menu__tab menu__tab--active tab1">
+              <div class="menu-wrap">
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/01.webp" type="image/webp"><img src="img/menu/01.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Ultimate organic fruit salad</div>
+                      <div class="menu-row__item-text">
+                        Survived not only five centuries but the leap
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>50.00</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/02.webp" type="image/webp"><img src="img/menu/02.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Plain pancakes</div>
+                      <div class="menu-row__item-text">
+                        Donec eget augue at diam euismod viverra
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>50.00</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/03.webp" type="image/webp"><img src="img/menu/03.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Toasted jam</div>
+                      <div class="menu-row__item-text">
+                        Phasellus a ex accumsan, sollicitudin. Engulfs the mouth in a
+                        saucy. nyam nyam
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>22.00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/04.webp" type="image/webp"><img src="img/menu/04.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Summer Asian Slaw</div>
+                      <div class="menu-row__item-text">
+                        While peaches add juicy pops of sweetness. I finish it with
+                        toasted pepitas for crunch
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>34.99</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/05.webp" type="image/webp"><img src="img/menu/05.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Best Broccoli Salad</div>
+                      <div class="menu-row__item-text">
+                        A lightly creamy, sweet & tangy dressing takes the whole thing
+                        over the top
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>32.50</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/06.webp" type="image/webp"><img src="img/menu/06.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Seafood paella</div>
+                      <div class="menu-row__item-text">
+                        Shrimp, lobster, mussels and cuttlefish combine with white
+                        rice and herbs
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>41.00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/07.webp" type="image/webp"><img src="img/menu/07.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Poutine</div>
+                      <div class="menu-row__item-text">
+                        Engulfs the mouth in a saucy, cheesy, fried-potato mix that'll
+                        have you fighting over the last dollop
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>55.50</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/08.webp" type="image/webp"><img src="img/menu/08.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Stinky tofu</div>
+                      <div class="menu-row__item-text">
+                        Survived not only five centuries but the leap
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>21.99</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/09.webp" type="image/webp"><img src="img/menu/09.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Meeting meat</div>
+                      <div class="menu-row__item-text">
+                        very very very very very very delicious
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>67.90</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__tab tab2">
+              <div class="menu-wrap">
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/01.webp" type="image/webp"><img src="img/menu/01.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Ultimate organic fruit salad</div>
+                      <div class="menu-row__item-text">
+                        Survived not only five centuries but the leap
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>50.00</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/02.webp" type="image/webp"><img src="img/menu/02.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Plain pancakes</div>
+                      <div class="menu-row__item-text">
+                        Donec eget augue at diam euismod viverra
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>50.00</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/03.webp" type="image/webp"><img src="img/menu/03.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Toasted jam</div>
+                      <div class="menu-row__item-text">
+                        Phasellus a ex accumsan, sollicitudin. Engulfs the mouth in a
+                        saucy. nyam nyam
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>22.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__tab tab3">
+              <div class="menu-wrap">
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/04.webp" type="image/webp"><img src="img/menu/04.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Summer Asian Slaw</div>
+                      <div class="menu-row__item-text">
+                        While peaches add juicy pops of sweetness. I finish it with
+                        toasted pepitas for crunch
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>34.99</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/05.webp" type="image/webp"><img src="img/menu/05.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Best Broccoli Salad</div>
+                      <div class="menu-row__item-text">
+                        A lightly creamy, sweet & tangy dressing takes the whole thing
+                        over the top
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>32.50</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/06.webp" type="image/webp"><img src="img/menu/06.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Seafood paella</div>
+                      <div class="menu-row__item-text">
+                        Shrimp, lobster, mussels and cuttlefish combine with white
+                        rice and herbs
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>41.00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/07.webp" type="image/webp"><img src="img/menu/07.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Poutine</div>
+                      <div class="menu-row__item-text">
+                        Engulfs the mouth in a saucy, cheesy, fried-potato mix that'll
+                        have you fighting over the last dollop
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>55.50</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/08.webp" type="image/webp"><img src="img/menu/08.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Stinky tofu</div>
+                      <div class="menu-row__item-text">
+                        Survived not only five centuries but the leap
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>21.99</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/09.webp" type="image/webp"><img src="img/menu/09.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Meeting meat</div>
+                      <div class="menu-row__item-text">
+                        very very very very very very delicious
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>67.90</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__tab tab4">
+              <div class="menu-wrap">
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/04.webp" type="image/webp"><img src="img/menu/04.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Summer Asian Slaw</div>
+                      <div class="menu-row__item-text">
+                        While peaches add juicy pops of sweetness. I finish it with
+                        toasted pepitas for crunch
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>34.99</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/05.webp" type="image/webp"><img src="img/menu/05.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Best Broccoli Salad</div>
+                      <div class="menu-row__item-text">
+                        A lightly creamy, sweet & tangy dressing takes the whole thing
+                        over the top
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>32.50</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/06.webp" type="image/webp"><img src="img/menu/06.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Seafood paella</div>
+                      <div class="menu-row__item-text">
+                        Shrimp, lobster, mussels and cuttlefish combine with white
+                        rice and herbs
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>41.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__tab tab5">
+              <div class="menu-wrap">
+                <div class="menu-row">
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/07.webp" type="image/webp"><img src="img/menu/07.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Poutine</div>
+                      <div class="menu-row__item-text">
+                        Engulfs the mouth in a saucy, cheesy, fried-potato mix that'll
+                        have you fighting over the last dollop
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>55.50</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/08.webp" type="image/webp"><img src="img/menu/08.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Stinky tofu</div>
+                      <div class="menu-row__item-text">
+                        Survived not only five centuries but the leap
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>21.99</div>
+                    </div>
+                  </div>
+                  <div class="menu-row__item">
+                    <div class="menu-row__item-img">
+                      <picture>
+                        <source srcset="img/menu/09.webp" type="image/webp"><img src="img/menu/09.jpg" alt=""></picture>
+                    </div>
+                    <div class="menu-row__item-inner">
+                      <div class="menu-row__item-title">Meeting meat</div>
+                      <div class="menu-row__item-text">
+                        very very very very very very delicious
+                      </div>
+                      <div class="menu-row__item-price"><span>$</span>67.90</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="menu__tab tab6">
+              <div class="menu-wrap"></div>
+            </div>
+            <div class="menu__tab tab7">
+              <div class="menu-wrap"></div>
+            </div>
+            <div class="menu__btn btn">
+              <a href="">Explor food menu</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="speciality">
+        <div class="speciality__inner">
+          <div class="speciality-column__img">
+            <picture>
+              <source srcset="img/speciality/01.webp" type="image/webp"><img src="img/speciality/01.jpg" alt="">
+            </picture>
+          </div>
+          <div class="speciality-column__content">
+            <div class="speciality-column__inner">
+              <div class="speciality-column__title">Speciality</div>
+              <div class="speciality-column__subtitle">EXCELLENT SERVICE</div>
+              <div class="speciality-column__text">Survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. </div>
+              <div class="speciality-column__subtitle">FREE Home DELIVERY</div>
+              <div class="speciality-column__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+              <div class="speciality-column__subtitle">Cool atmosphere</div>
+              <div class="speciality-column__text">Letraset sheets containing Lorem Ipsum passages, and more recently
+                with
+                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="open">
+        <div class="container">
+          <div class="open__inner">
+            <div class="open-column open-column--title">
+              <div class="open-column__title">Opening Hours</div>
+            </div>
+            <div class="open-column open-column--middle">
+              <div class="open-column__pillar">
+                <div class="open-column__text">Monday to Friday</div>
+                <div class="open-column__time">10am - 10pm</div>
+              </div>
+              <div class="open-column__pillar">
+                <div class="open-column__text">Saturday to Sunday</div>
+                <div class="open-column__time">09am - 11pm</div>
+              </div>
+            </div>
+            <div class="open-column open-column--img">
+              <div class="open-column__img">
+                <picture>
+                  <source srcset="img/speciality/02.webp" type="image/webp"><img src="img/speciality/02.jpg" alt="">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <div class="footer-navigation">
+            <div class="footer-navigation__title title--foot">Navigation</div>
+            <div class="footer-navigation__accordion">Menu</div>
+            <ul class="footer-navigation__menu">
+              <li><a href="../index.html" class="footer-navigation__link">Home</a></li>
+              <li><a href="../error/index.html" class="footer-navigation__link">About us</a></li>
+              <li><a href="../menu/index.html" class="footer-navigation__link">Menu</a></li>
+              <li><a href="../reservation/" class="footer-navigation__link">Reservation</a></li>
+              <li><a href="../recipe/" class="footer-navigation__link">Recipe</a></li>
+              <li><a href="../blog/index.html" class="footer-navigation__link">Blog</a></li>
+              <li><a href="../contactUs/index.html" class="footer-navigation__link">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-news">
+            <h5 class="footer-news__title title--foot">News letter</h5>
+            <h6 class="footer-news__subtitle">Enter your email address and subscribe daily newsletter</h6>
+            <form class="footer-news-form">
+              <div class='footer-news-form__input-line'>
+                <input class='input' autocomplete='off' type='text' name='form[]' placeholder='Email Address'>
+              </div>
+              <div class='footer-news-form__button-line'>
+                <button class='button' type='submit'>Subscribe</button>
+              </div>
+            </form>
+            <ul class="footer-news__icon">
+              <li><a href="" class="footer-news__icon-list footer-news__icon-list--facebook">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icons/facebook.webp" type="image/webp"><img src="img/icons/facebook.png"
+                        alt=""></picture>
+                  </picture>
+                </a></li>
+              <li><a href="" class="footer-news__icon-list footer-news__icon-list--twitter">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icons/twitter.webp" type="image/webp"><img src="img/icons/twitter.png" alt="">
+                    </picture>
+                  </picture>
+                </a></li>
+              <li><a href="" class="footer-news__icon-list footer-news__icon-list--google">
+                  <picture>
+                    <picture>
+                      <source srcset="img/icons/google+.webp" type="image/webp"><img src="img/icons/google+.png" alt="">
+                    </picture>
+                  </picture>
+                </a></li>
+            </ul>
+          </div>
+          <div class="footer-our">
+            <h6 class="footer-our__title title--foot">Our app avilable</h6>
+            <div class="footer-our__link"><a href="">
+                <picture>
+                  <source srcset="img/icons/apple.webp" type="image/webp"><img src="img/icons/apple.png" alt="">
+                </picture>
+                <div class="footer-our__link-text">
+                  Avilable on the
+                  <span>App Store</span>
+                </div>
+              </a>
+            </div>
+            <div class="footer-our__link"><a href="">
+                <picture>
+                  <source srcset="img/icons/Google_Play.webp" type="image/webp"><img src="img/icons/Google_Play.png"
+                    alt=""></picture>
+                <h6 class="footer-our__link-text">
+                  Get it on <span>Google Play</span>
+                </h6>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__under">
+          <div class="footer__line-left"><span></span></div>
+          <h6 class="footer__copy"><a href="">2016 © Luxury RestaurAnt, All rights reserved</a></h6>
+          <div class="footer__line-right"><span></span></div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
